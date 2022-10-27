@@ -6,6 +6,7 @@
 }
 
 header {
+  position: relative;
   display: flex;
 }
 img {
@@ -16,6 +17,8 @@ img {
 }
 
 h2 {
+  position: absolute;
+  right: 30px;
   margin-top: 10px;
 }
 
