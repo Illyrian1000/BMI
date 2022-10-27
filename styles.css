@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 55px;
+  height: 55px;
+  padding-bottom: 15px;
+}
+
+body {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+header {
+  background-color: #393e46;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+#first-container,
+#second-container {
+  color: #4cacb5;
+  font-size: 20px;
+  display: flex;
+  background-color: #393e46;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#second-container {
+  display: none;
+}
+
+.height-container,
+.weight-container {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #393e46;
+  text-align: center;
+  width: 320px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.height-container h3,
+.weight-container h3 {
+  padding: 15px 0;
+}
+
+.height-container p,
+.weight-container p {
+  padding: 0 0 5px 0;
+}
+
+.height-container input,
+.weight-container input {
+  padding: 15px 0;
+}
+
+#height-number,
+#weight-number {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+button {
+  background-color: #4cacb5;
+  color: #eeeeee;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+}
+
+input[type="range"] {
+  width: 90%;
+  margin: 4.85px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #4cacb5;
+  border: 0;
+  border-radius: 7.5px;
+  width: 90%;
+  height: 9.3px;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  margin-top: -5px;
+  width: 20px;
+  height: 20px;
+  background: #4cacb5;
+  border: 3px solid #c3f1f57a;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #4cacb5;
+}
+input[type="range"]::-moz-range-track {
+  background: #4cacb5;
+  border: 0;
+  border-radius: 7.5px;
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4cacb5;
+  border: 3px solid #393e46;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input[type="range"]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 12px 0;
+  color: transparent;
+  width: 90%;
+  height: 10px;
+  cursor: pointer;
+}
+input[type="range"]::-ms-fill-lower {
+  background: #4cacb5;
+  border: 0;
+  border-radius: 15px;
+}
+input[type="range"]::-ms-fill-upper {
+  background: #4cacb5;
+  border: 0;
+  border-radius: 15px;
+}
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4cacb5;
+  border: 3px solid #393e46;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type="range"]:focus::-ms-fill-lower {
+  background: #4cacb5;
+}
+input[type="range"]:focus::-ms-fill-upper {
+  background: #4cacb5;
+}
